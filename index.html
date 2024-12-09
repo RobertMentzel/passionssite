@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="da">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Passionssite</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/layout.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Felipa&family=Modern+Antiqua&display=swap");
+    </style>
+  </head>
+  <body>
+    <header class="flex">
+      <div>Tatovør</div>
+      <p>Olivers passion</p>
+      <nav>Menu</nav>
+    </header>
+    <section class="hero">
+      <script
+        src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs"
+        type="module"
+      ></script>
+      <dotlottie-player
+        src="https://lottie.host/995e9574-6705-47f5-b501-3537df4301ae/t4ywp5o9J9.json"
+        background="transparent"
+        speed="1"
+        loop
+        autoplay
+      ></dotlottie-player>
+    </section>
+    <main>
+      <section class="grid_1-1">
+        <div>
+          <h1><strong>Olivers passion som Tatovør</strong></h1>
+          <h2>Hvordan finder Oliver sin inspiration?</h2>
+          <p>
+            Oliver fortæller, at han altid har været drevet af ekstremerne i livet, og han derfor får glæde som tatovør,
+            fordi tatoveringer er et slags ekstrem i kunst-verdenen. Han finder særligt inspiration fra graffiti på
+            vægge i storbyen, gamle illustrationer i bøger og fra fantasien selv.
+          </p>
+        </div>
+        <div class="tekst_billede">
+          <img src="billeder/still3.webp" class="billede_1" alt="billede 1" />
+          <p class="tekst">Oliver</p>
+        </div>
+      </section>
+      <h2>Olivers kunstværker</h2>
+      <section class="grid_1-2">
+        <img src="billeder/blackskateboard.webp" class="collage1" alt="collage1" />
+        <img src="billeder/tatoodrawings1.webp" class="collage2" alt="callage2" />
+        <img src="billeder/redskateboard.webp" class="collage3" alt="collage3" />
+        <img src="billeder/tatoodrawings2.webp" class="collage4" alt="collage4" />
+      </section>
+
+      <h2>Interview med Oliver</h2>
+      <section class="flex_video">
+        <video controls src="billeder/passionsvideo.mp4"></video>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/__Ny7wF91vA?si=P6Qmlz91Luutcnz1"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </section>
+    </main>
+    <footer>Lavet af Sebastian Mentzel</footer>
+  </body>
+</html>
